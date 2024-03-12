@@ -83,5 +83,5 @@ picture: string(url)
 Графическая форма тестирования объекта **Post**. Детализация сделана для **Get List** и **Create Post**.
 
 ![Майнд-карта](https://disk.yandex.ru/i/bzCI4kApVg_NNg)
-Также майнд-карту можно ![скачать](https://github.com/Yonone14/DummyApi/blob/main/DummiAPI%20-%20%D0%BC%D0%B0%D0%B9%D0%BD%D0%B4-%D0%BA%D0%B0%D1%80%D1%82%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%20post.xmind)
+Также майнд-карту можно ![скачать](https://github.com/Yonone14/DummyApi/blob/main/DummiAPI.xmind)
 
