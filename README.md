@@ -89,15 +89,15 @@ picture: string(url)
 ```
 ## Майнд-карта
 Графическая форма тестирования объекта **Post**. Детализация сделана для **Get List** и **Create Post**.
+<img src="Пост%20DummiAPI.jpg"/>
 
-![Майнд-карта](https://disk.yandex.ru/i/bzCI4kApVg_NNg)
 Также майнд-карту можно ![скачать](https://github.com/Yonone14/DummyApi/blob/main/DummiAPI.xmind)
 
 ## Баг-репорты
 По результатам тестирования былы обнаружены баги. Вот несколько примеров:
-* Создание поста с полем text из 5 символов (ссылка).
-* Создание поста с булеан-значением поля text (ссылка)
-* Переход на 999 страницу выдачи вместо недопустимой 1000-й (ссылка).
+* Создание поста с полем "text" из 5 символов ([ссылка_на_doc](https://github.com/Yonone14/DummyApi/blob/main/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%20%D1%81%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%BC%20%D0%B8%D0%B7%205%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2.docx)).
+* Создание поста с boolean-значением поля "text" ([ссылка_на_doc](https://github.com/Yonone14/DummyApi/blob/main/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%20%D1%81%20Boolean-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%BF%D0%BE%D0%BB%D1%8F%20text.docx)).
+* Переход на 999 страницу выдачи вместо недопустимой 1000-й ([ссылка_на_doc](https://github.com/Yonone14/DummyApi/blob/main/%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%20%D0%BD%D0%B0%20999%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%83%20%D0%B2%D1%8B%D0%B4%D0%B0%D1%87%D0%B8%20%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%BD%D0%B5%D0%B4%D0%BE%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D0%B9%201000-%D0%B9.docx)).
 
 ## Коллекции
 Для проверки корректности функционала добавления нового поста и просмотра листа постов в Postman была создана коллекция **POST**. Для удобства работы запросы для разного функционала разделены по папкам Get Post List и Create Post. Ознакомиться с содержанием папок можно по ссылке https://github.com/Yonone14/DummyApi/blob/main/POST.postman_collection.json.
